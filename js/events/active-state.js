@@ -50,3 +50,12 @@ document.querySelector(".footer-contact").addEventListener("click", () => {
     );
     document.querySelectorAll(".nav-link")[4].className += " active";
 });
+
+document.querySelector(".navbar-brand").addEventListener("click", () => {
+    let currentActiveNavLink = document.querySelector(".active");
+    currentActiveNavLink.className = currentActiveNavLink.className.replace(
+        " active",
+        ""
+    );
+    document.querySelectorAll(".nav-link")[0].className += " active";
+});
