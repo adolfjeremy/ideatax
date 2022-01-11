@@ -5,6 +5,26 @@
 
 body {
     font-family: "Poppins", sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.skeleton {
+    animation: skeleton-loading 1s linear infinite alternate;
+}
+
+.skeleton-text {
+    width: 100%;
+    height: 1.5rem;
+}
+
+@keyframes skeleton-loading {
+    0% {
+        background-color: hsl(200, 20%, 70%);
+    }
+    0% {
+        background-color: hsl(200, 20%, 95%);
+    }
 }
 
 .disable-scroll {
@@ -26,7 +46,7 @@ header {
     top: 0;
     z-index: 1;
     width: 100%;
-    background-color: rgb(4, 52, 76);
+    background-color: #fff;
 }
 
 #hamburgerButton {
@@ -72,9 +92,13 @@ header {
 }
 
 .navbar-brand {
-    color: #fff !important;
+    color: rgb(4, 52, 76) !important;
     font-size: 1.5rem;
     font-weight: 600;
+}
+
+.navbar-brand img {
+    width: 40px;
 }
 
 .custom:not(.active):hover {
@@ -87,7 +111,7 @@ header {
     }
     .custom:not(.active),
     .navbar-brand {
-        color: #fff !important;
+        color: rgb(4, 52, 76) !important;
     }
 }
 
@@ -142,7 +166,7 @@ header {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(4, 52, 76, 0.5);
+    background-color: rgba(4, 52, 76, 0.6);
 }
 
 .cta {
@@ -151,6 +175,7 @@ header {
     justify-content: flex-start;
     align-items: center;
     position: relative;
+    height: 100%;
 }
 
 .cta h1,
@@ -181,7 +206,7 @@ header {
     .hero .row p {
         line-height: 1.3;
     }
-    .cta {
+    .hero {
         height: 80vh;
     }
     .buttons {
@@ -193,7 +218,7 @@ header {
     .hero .container .row {
         width: 50%;
     }
-    .cta {
+    .hero {
         height: 90vh;
     }
 }
@@ -204,8 +229,8 @@ header {
 
 #aboutUs h2,
 #aboutUs p,
-#ourServices h2,
-#ourServices p {
+#ourServicesHome h2,
+#ourServicesHome p {
     color: rgb(4, 52, 76);
 }
 
@@ -215,10 +240,12 @@ main h2 {
 
 .custom-border-radius {
     border-radius: 10px 50px 10px 50px;
+    width: 100%;
 }
 
 .custom-border-radius-2 {
     border-radius: 50px 10px 50px 10px;
+    width: 100%;
 }
 
 @media screen and (min-width: 992px) {
@@ -230,13 +257,13 @@ main h2 {
     }
 }
 
-#aboutUs hr {
+hr {
     height: 3px;
     opacity: 1;
     background-color: #ffc107;
 }
 
-#ourServices img {
+#ourServicesHome img {
     width: 100px;
 }
 
@@ -244,8 +271,8 @@ main h2 {
     border: 1px solid rgb(4, 52, 76);
 }
 
-#ourServices h3 {
-    font-size: 1.1rem;
+main h3 {
+    font-size: 1rem;
     font-weight: 500;
     text-align: center;
 }
@@ -254,31 +281,6 @@ main h2 {
     font-size: 0.825rem;
     text-align: justify;
     font-weight: 400;
-}
-
-footer {
-    background-color: rgb(4, 52, 76);
-}
-
-footer .nav-link,
-footer h3 {
-    color: #fff;
-}
-
-footer h3 {
-    font-size: 1.354rem;
-}
-
-footer .nav-link {
-    font-size: 0.825rem;
-}
-
-footer .nav-link {
-    font-size: 0.825rem;
-}
-
-footer .nav-link:hover {
-    color: #ffc107;
 }
 
 
@@ -345,4 +347,68 @@ h4,
 p,
 a {
     color: rgb(4, 52, 76);
+}
+
+#ourServicesHome .card {
+    height: 200px;
+    transition: 200ms ease-out;
+    cursor: pointer;
+}
+
+#ourServicesHome .card:hover {
+    box-shadow: 1px 1px 6px gray;
+}
+
+a {
+    text-decoration: none;
+}
+
+.illustration {
+    width: 100px;
+}
+
+.service-item:hover {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2) !important;
+    transition: 150ms ease-out;
+}
+
+#contactUs .container {
+    border-top: 3px solid #ffc107;
+}
+
+footer {
+    background-color: rgb(4, 52, 76);
+}
+
+footer h3,
+footer h4,
+footer a,
+footer p {
+    color: #fff;
+}
+
+footer h3 {
+    font-size: 1.5rem;
+}
+
+footer h4,
+footer a,
+footer p {
+    font-size: 0.825rem;
+}
+
+footer a:hover {
+    color: #ffc107;
+}
+
+@media screen and (max-width: 768px) {
+    .office-information {
+        border-bottom: 2px solid #ffc107;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .office-information {
+        border-right: 2px solid #ffc107;
+    }
 }

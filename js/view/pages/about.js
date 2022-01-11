@@ -5,13 +5,14 @@ const About = {
             <div class="container">
                 <div class="row d-flex flex-column-reverse flex-md-row text-center text-md-start">
                     <div class="col-12 col-md-7 d-flex flex-column justify-content-center">
-                        <img src="images/about-us-header.jpg" class="w-100 custom-border-radius shadow" alt="">
+                        <img src="images/about-us-header.jpg" class="w-100 skeleton custom-border-radius shadow" alt="">
                     </div>
                     <div class="col-12 col-md-5 d-flex flex-column justify-content-center mb-4 mb-lg-0">
-                        <h1>We Are The Best Tax Consultant</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus pariatur quod quo rem beatae vero saepe sequi exercitationem, harum debitis.</p>
+                        <h2>We Are The Best Tax Consultant</h2>
+                        <p>With the rapid development of business, we understand your need to overcome the difficulties and complexity of the challenges and problems that you face in business, especially related to taxation.</p>
+                        <p>Idea Tax comes with the vision of becoming a leading tax consulting company, by providing high-quality services and upholding the trust you have given us.</p>
                         <div>
-                            <a type="button" class="btn btn-warning btn-lg px-4 me-md-2 shadow">Get Started</a>
+                            <a href="#/contact" class="btn-contact btn btn-warning btn-lg px-4 me-md-2 shadow">Get Started</a>
                         </div>
                     </div>
                 </div>
@@ -22,92 +23,57 @@ const About = {
                 <div class="row d-flex flex-column-reverse flex-md-row text-center text-md-start">
                     <div class="col-12 col-md-5 d-flex flex-column justify-content-center">
                         <h2>Why work with us?</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto itaque doloremque maxime dolores ipsa fugiat.</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia porro illum dolores vel quidem quisquam dolorem fuga, eligendi assumenda rem.</p>
+                        <p>At Idea, we build a community that is always focused on solving comprehensive problems. We are supported by professionals who are experts in their fields, to help you provide the completion of your daily activities and provide
+                            you with a reliable, solution and comprehensive service.</p>
                     </div>
                     <div class="col-12 col-md-7 d-flex flex-column justify-content-center mb-4 mb-lg-0">
-                        <img src="images/why-work-with-us-image.jpg" class="w-100 custom-border-radius-2 shadow" alt="">
+                        <img src="images/why-work-with-us-image.jpg" class="w-100 skeleton custom-border-radius-2 shadow" alt="">
                     </div>
                 </div>
             </div>
         </section>
-        <section id="ourTeam" class="p-60">
+        <section id="coreValue" class="p-60">
             <div class="container">
                 <div class="row">
-                    <div class="col-12 text-center">
-                        <h2>Meet Our Team</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos id molestiae sed. In similique ipsa tenetur ipsum. Possimus, itaque maxime.</p>
+                    <div class="col-12 text-center p-5">
+                        <h2>Our Core Value</h2>
+                        <p>We always aspire to provide the best service that is always focused on the best interests of the client. We also always prioritize the development of our talents so that they can continue to be relevant in existing changes to improve
+                            services to clients.</p>
+                        <p>Our core values ​​that underlie the services we provide are :</p>
                     </div>
                 </div>
-                <div class="row p-md-5">
-                    <div class="col-12 col-md-6 col-lg-3 p-4 shadow rounded-2">
-                        <img class="profile-img rounded-2" src="images/women-2.jpg" alt="Celine Houston">
-                        <h4>Celine Houston</h4>
-                        <p>Managing Partner</p>
-                        <div class="social mt-1">
-                            <a href="#" target="_blank" rel="noopener noreferrer">
-                                <img src="images/instagram.png" alt="Instagram">
-                            </a>
-                            <a href="#" target="_blank" rel="noopener noreferrer">
-                                <img src="images/twitter.png" alt="twitter">
-                            </a>
-                            <a href="#" target="_blank" rel="noopener noreferrer">
-                                <img src="images/linkedin.png" alt="linkedin">
-                            </a>
-                        </div>
+                <div class="row p-5">
+                    <div class="col-12 col-md-6 col-lg-3 d-flex flex-column align-items-center p-3 shadow-sm">
+                        <img src="images/trustworthy.png" class="illustration" alt="Trustworthy Illustration">
+                        <h3>Trustworthy</h3>
                     </div>
-                    <div class="col-12 col-md-6 col-lg-3 p-4 shadow rounded-2">
-                        <img class="profile-img rounded-2" src="images/man-2.jpg" alt="Steve Robinson">
-                        <h4>Steve Robinson</h4>
-                        <p>Partner</p>
-                        <div class="social mt-1">
-                            <a href="#" target="_blank" rel="noopener noreferrer">
-                                <img src="images/instagram.png" alt="Instagram">
-                            </a>
-                            <a href="#" target="_blank" rel="noopener noreferrer">
-                                <img src="images/twitter.png" alt="twitter">
-                            </a>
-                            <a href="#" target="_blank" rel="noopener noreferrer">
-                                <img src="images/linkedin.png" alt="linkedin">
-                            </a>
-                        </div>
+                    <div class="col-12 col-md-6 col-lg-3 d-flex flex-column align-items-center p-3 shadow-sm">
+                        <img src="images/professional.png" class="illustration" alt="Professionalism Illustration">
+                        <h3>Professionalism</h3>
                     </div>
-                    <div class="col-12 col-md-6 col-lg-3 p-4 shadow rounded-2">
-                        <img class="profile-img rounded-2" src="images/women-1.jpg" alt="Steve Robinson">
-                        <h4>katy Williams</h4>
-                        <p>Partner</p>
-                        <div class="social mt-1">
-                            <a href="#" target="_blank" rel="noopener noreferrer">
-                                <img src="images/instagram.png" alt="Instagram">
-                            </a>
-                            <a href="#" target="_blank" rel="noopener noreferrer">
-                                <img src="images/twitter.png" alt="twitter">
-                            </a>
-                            <a href="#" target="_blank" rel="noopener noreferrer">
-                                <img src="images/linkedin.png" alt="linkedin">
-                            </a>
-                        </div>
+                    <div class="col-12 col-md-6 col-lg-3 d-flex flex-column align-items-center p-3 shadow-sm">
+                        <img src="images/creative.png" class="illustration" alt="Creativity Illustration">
+                        <h3>Creativity</h3>
                     </div>
-                    <div class="col-12 col-md-6 col-lg-3 p-4 shadow rounded-2">
-                        <img class="profile-img rounded-2" src="images/man-1.jpg" alt="Steve Robinson">
-                        <h4>Robert Johnson</h4>
-                        <p>Partner</p>
-                        <div class="social mt-1">
-                            <a href="#" target="_blank" rel="noopener noreferrer">
-                                <img src="images/instagram.png" alt="Instagram">
-                            </a>
-                            <a href="#" target="_blank" rel="noopener noreferrer">
-                                <img src="images/twitter.png" alt="twitter">
-                            </a>
-                            <a href="#" target="_blank" rel="noopener noreferrer">
-                                <img src="images/linkedin.png" alt="linkedin">
-                            </a>
-                        </div>
+                    <div class="col-12 col-md-6 col-lg-3 d-flex flex-column align-items-center p-3 shadow-sm">
+                        <img src="images/prudent.png" class="illustration" alt="Prudent Illustration">
+                        <h3>Prudent</h3>
                     </div>
                 </div>
             </div>
         </section>
         `;
+    },
+
+    async afterRender() {
+        document.querySelector(".btn-contact").addEventListener("click", () => {
+            let currentActiveNavLink = document.querySelector(".active");
+            currentActiveNavLink.className = currentActiveNavLink.className.replace(
+                " active",
+                ""
+            );
+            document.querySelectorAll(".nav-link")[4].className += " active";
+        });
     },
 };
 

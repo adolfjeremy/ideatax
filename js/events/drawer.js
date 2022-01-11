@@ -10,3 +10,5 @@ document.querySelector("main").addEventListener("click", () => {
         events() :
         "";
 });
+
+export default events;

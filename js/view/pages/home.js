@@ -2,91 +2,94 @@ const Home = {
     async render() {
         return `
         <section class="hero">
-        <div class="overlay"></div>
-        <div class="cta text-start">
-            <div class="container d-flex align-items-center">
-                <div class="row">
-                    <h1 class="display-6 fw-bold mb-3">Grow Up<br>Finance With<br>Expert Consultant</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod reprehenderit ducimus dolorum eaque veniam obcaecati officia sed necessitatibus reiciendis nihil!</p>
-                    <div class="d-grid gap-3 d-md-flex justify-content-md-center justify-content-lg-start buttons">
-                    <a type="button" class="btn btn-warning btn-lg px-4 me-md-2">Contact Us</a>
-                    <a type="button" class="btn btn-outline-light btn-lg px-4">Our Services</a>
+                <div class="overlay"></div>
+                <div class="cta text-start">
+                    <div class="container d-flex align-items-center">
+                        <div class="row">
+                            <h1 class="display-6 fw-bold mb-3">Dedicated<br>to presenting<br>your tax solution</h1>
+                            <p>We provide you with a comprehensive perspective, prudent and creative services to solve your tax challenge.</p>
+                            <div class="d-grid gap-3 d-md-flex justify-content-md-center justify-content-lg-start buttons">
+                                <a href="#/contact" class="cta-contact -btn btn-warning btn-lg px-4 me-md-2">Contact Us</a>
+                                <a href="#/our-services" class="cta-services btn btn-outline-light btn-lg px-4">Our Services</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>                
-        </div>
-    </section>
-    <section id="aboutUs" class="py-5 my-4">
-      <div class="container">
-        <div class="row py-2">
-          <div class="col-12 col-md-6 d-flex flex-column justify-content-center">
-            <img src="images/team-photo.jpg" class="w-100 custom-border-radius shadow-lg" alt="Ideatax team">
-          </div>
-          <div class="col-12 col-md-6 p-4 text-start d-flex flex-column justify-content-center">
-            <div class="row">
-              <div class="col-12">
-                <h2 class="mb-3">About Idea<strong>tax</strong></h2>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-12">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit harum accusamus possimus dicta quos vel earum blanditiis ex eligendi dolore.</p>
-                <hr>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. At aut et fuga repudiandae quod!</p>
-                <div class="d-grid d-md-flex justify-content-lg-start buttons">
-                  <a type="button" class="btn btn-warning btn-md px-4 me-md-2">Read More</a>
+            </section>
+            <section id="aboutUs" class="py-5 my-4">
+                <div class="container">
+                    <div class="row py-2">
+                        <div class="col-12 col-md-6 d-flex flex-column justify-content-center">
+                            <img src="images/team-photo.jpg" class="w-100 custom-border-radius shadow-lg" alt="Ideatax team">
+                        </div>
+                        <div class="col-12 col-md-6 p-4 text-start d-flex flex-column justify-content-center">
+                            <div class="row">
+                                <div class="col-12">
+                                    <h2 class="mb-3">About Idea<strong>tax</strong></h2>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12">
+                                    <p>We focus on helping your business grow and achieve its goals. Our day-to-day activities are focused on how we maintain strong relationships and maintain your trust, as well as provide thoughtful solutions to help manage
+                                        your tax risks and meet beyond your expectations.</p>
+                                    <hr>
+                                    <div class="d-grid d-md-flex justify-content-lg-start buttons">
+                                        <a href="/#/about" class="btn btn-warning btn-md px-4 me-md-2">Read More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section id="ourServices" class="py-5 my-4">
-      <div class="container">
-        <div class="row">
-          <div class="col-12 text-center">
-            <h2>Services We Offer</h2>
-            <p class="px-md-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam facilis vitae, nihil illum delectus suscipit sed similique laboriosam mollitia fugiat!</p>
-          </div>
-        </div>
-        <div class="row mt-5">
-          <div class="col-12 col-lg-3 col-md-6 mb-5">
-            <div class="card d-flex flex-column align-items-center p-3">
-              <img src="images/tax-advisory.png" alt="">
-              <h3 class="fs-6">Tax Advisory</h3>
-              <p class="desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis hic iusto amet corrupti maiores quisquam expedita sapiente dolore autem perspiciatis.</p>
-              <a type="button" class="btn btn-warning btn-md px-4 me-md-2 w-100">Read More</a>
-            </div>
-          </div>
-          <div class="col-12 col-lg-3 col-md-6 mb-5">
-            <div class="card d-flex flex-column align-items-center p-3">
-              <img src="images/tax-disputes.png" alt="">
-              <h3 class="fs-6">Tax Disputes</h3>
-              <p class="desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis hic iusto amet corrupti maiores quisquam expedita sapiente dolore autem perspiciatis.</p>
-              <a type="button" class="btn btn-warning btn-md px-4 me-md-2 w-100">Read More</a>
-            </div>
-          </div>
-          <div class="col-12 col-lg-3 col-md-6 mb-5">
-            <div class="card d-flex flex-column align-items-center p-3">
-              <img src="images/tax-compliance.png" alt="">
-              <h3 class="fs-6">Tax Compliance</h3>
-              <p class="desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis hic iusto amet corrupti maiores quisquam expedita sapiente dolore autem perspiciatis.</p>
-              <a type="button" class="btn btn-warning btn-md px-4 me-md-2 w-100">Read More</a>
-            </div>
-          </div>
-          <div class="col-12 col-lg-3 col-md-6 mb-5">
-            <div class="card d-flex flex-column align-items-center p-3">
-              <img src="images/transfer-pricing.png" alt="">
-              <h3 class="fs-6">Transfer Pricing</h3>
-              <p class="desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis hic iusto amet corrupti maiores quisquam expedita sapiente dolore autem perspiciatis.</p>
-              <a type="button" class="btn btn-warning btn-md px-4 me-md-2 w-100">Read More</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+            </section>
+            <section id="ourServicesHome" class="p-5 my-4">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 text-center">
+                            <h2>Services We Offer</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div href="#" class="service-item rounded-2 col-12 col-md-6 col-lg-3 p-3 mt-4 mt-md-4 d-flex flex-column align-items-center shadow-sm">
+                            <img src="images/compliance.png" class="illustration mb-2" alt="Tax and Custom Compliances Illustration">
+                            <h3>Tax and Custom Compliances</h3>
+                        </div>
+                        <div href="#" class="service-item rounded-2 col-12 col-md-6 col-lg-3 p-3 mt-4 mt-md-4 d-flex flex-column align-items-center shadow-sm">
+                            <img src="images/accounting.png" class="illustration mb-2" alt="Accounting Services Illustration">
+                            <h3>Accounting Services</h3>
+                        </div>
+                        <div href="#" class="service-item rounded-2 col-12 col-md-6 col-lg-3 p-3 mt-4 mt-md-4 d-flex flex-column align-items-center shadow-sm">
+                            <img src="images/assistant.png" class="illustration mb-2" alt="Tax Supervision Assistances Illustration">
+                            <h3>Tax Supervision Assistances</h3>
+                        </div>
+                        <a href="/#/our-services" class="cta-services service-item rounded-2 col-12 col-md-6 col-lg-3 p-3 mt-4 mt-md-4 d-flex flex-column align-items-center shadow-sm">
+                            <img src="images/more.png" alt="more services illustration">
+                            <h3><strong>Other Services &#62;</strong></h3>
+                        </a>
+                    </div>
+            </section>
         `;
+    },
+
+    async afterRender() {
+        document.querySelector(".cta-contact").addEventListener("click", () => {
+            let currentActiveNavLink = document.querySelector(".active");
+            currentActiveNavLink.className = currentActiveNavLink.className.replace(
+                " active",
+                ""
+            );
+            document.querySelectorAll(".nav-link")[4].className += " active";
+        });
+        document.querySelectorAll(".cta-services").forEach((ctaService) => {
+            ctaService.addEventListener("click", () => {
+                let currentActiveNavLink = document.querySelector(".active");
+                currentActiveNavLink.className = currentActiveNavLink.className.replace(
+                    " active",
+                    ""
+                );
+                document.querySelectorAll(".nav-link")[2].className += " active";
+            });
+        });
     },
 };
 
