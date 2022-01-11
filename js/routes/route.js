@@ -5,6 +5,7 @@ import Contact from "../view/pages/contact.js";
 
 const routes = {
     "/": Home,
+    "/home": Home,
     "/about": About,
     "/our-services": OurServices,
     "/contact": Contact,
