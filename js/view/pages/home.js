@@ -62,7 +62,7 @@ const Home = {
                             <img src="images/assistant.png" class="illustration mb-2" alt="Tax Supervision Assistances Illustration">
                             <h3>Tax Supervision Assistances</h3>
                         </div>
-                        <a href="/#/our-services" class="cta-services service-item rounded-2 col-12 col-md-6 col-lg-3 p-3 mt-4 mt-md-4 d-flex flex-column align-items-center shadow-sm">
+                        <a href="#/our-services" class="cta-services service-item rounded-2 col-12 col-md-6 col-lg-3 p-3 mt-4 mt-md-4 d-flex flex-column align-items-center shadow-sm">
                             <img src="images/more.png" alt="more services illustration">
                             <h3><strong>Other Services &#62;</strong></h3>
                         </a>
