@@ -1,5 +1,6 @@
 import "./events/drawer.js";
 import App from "./view/app.js";
+import "./events/onMobileNav.js";
 
 const app = new App({
     content: document.querySelector("#mainContent"),
