@@ -15,7 +15,7 @@ class App {
         const url = UrlParser.parseActiveUrlAndCombine();
         const page = routes[url];
         this._content.innerHTML = await page.render();
-        url == "/home" ? this._homePage.classList.add("active") : this._homePage.classList.remove("active")
+        url == "/home" || url == "/" ? this._homePage.classList.add("active") : this._homePage.classList.remove("active")
         url == "/about" ? this._aboutPage.classList.add("active") : this._aboutPage.classList.remove("active")
         url == "/our-services" ? this._servicesPage.classList.add("active") : this._servicesPage.classList.remove("active")
         url == "/contact" ? this._contactPage.classList.add("active") : this._contactPage.classList.remove("active")
