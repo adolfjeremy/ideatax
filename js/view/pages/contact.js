@@ -20,9 +20,6 @@ const Contact = {
             </section>
         `;
     },
-    afterRender() {
-        return "";
-    },
 };
 
 export default Contact;

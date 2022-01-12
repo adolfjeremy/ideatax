@@ -9,8 +9,8 @@ const Home = {
                             <h1 class="display-6 fw-bold mb-3">Dedicated<br>to presenting<br>your tax solution</h1>
                             <p>We provide you with a comprehensive perspective, prudent and creative services to solve your tax challenge.</p>
                             <div class="d-grid gap-3 d-md-flex justify-content-md-center justify-content-lg-start buttons">
-                                <a href="#/contact" class="cta-contact -btn btn-warning btn-lg px-4 me-md-2">Contact Us</a>
-                                <a href="#/our-services" class="cta-services btn btn-outline-light btn-lg px-4">Our Services</a>
+                                <a href="#/contact" class="btn btn-warning btn-lg px-4 me-md-2">Contact Us</a>
+                                <a href="#/our-services" class="btn btn-outline-light btn-lg px-4">Our Services</a>
                             </div>
                         </div>
                     </div>
@@ -34,7 +34,7 @@ const Home = {
                                         your tax risks and meet beyond your expectations.</p>
                                     <hr>
                                     <div class="d-grid d-md-flex justify-content-lg-start buttons">
-                                        <a href="/#/about" class="btn btn-warning btn-md px-4 me-md-2">Read More</a>
+                                        <a href="#/about" class="btn btn-warning btn-md px-4 me-md-2">Read More</a>
                                     </div>
                                 </div>
                             </div>
@@ -62,34 +62,13 @@ const Home = {
                             <img src="images/assistant.png" class="illustration mb-2" alt="Tax Supervision Assistances Illustration">
                             <h3>Tax Supervision Assistances</h3>
                         </div>
-                        <a href="#/our-services" class="cta-services service-item rounded-2 col-12 col-md-6 col-lg-3 p-3 mt-4 mt-md-4 d-flex flex-column align-items-center shadow-sm">
+                        <a href="#/our-services" class="service-item rounded-2 col-12 col-md-6 col-lg-3 p-3 mt-4 mt-md-4 d-flex flex-column align-items-center shadow-sm">
                             <img src="images/more.png" alt="more services illustration">
                             <h3><strong>Other Services &#62;</strong></h3>
                         </a>
                     </div>
             </section>
         `;
-    },
-
-    async afterRender() {
-        document.querySelector(".cta-contact").addEventListener("click", () => {
-            let currentActiveNavLink = document.querySelector(".active");
-            currentActiveNavLink.className = currentActiveNavLink.className.replace(
-                " active",
-                ""
-            );
-            document.querySelectorAll(".nav-link")[4].className += " active";
-        });
-        document.querySelectorAll(".cta-services").forEach((ctaService) => {
-            ctaService.addEventListener("click", () => {
-                let currentActiveNavLink = document.querySelector(".active");
-                currentActiveNavLink.className = currentActiveNavLink.className.replace(
-                    " active",
-                    ""
-                );
-                document.querySelectorAll(".nav-link")[2].className += " active";
-            });
-        });
     },
 };
 

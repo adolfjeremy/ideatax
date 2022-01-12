@@ -12,7 +12,7 @@ const About = {
                         <p>With the rapid development of business, we understand your need to overcome the difficulties and complexity of the challenges and problems that you face in business, especially related to taxation.</p>
                         <p>Idea Tax comes with the vision of becoming a leading tax consulting company, by providing high-quality services and upholding the trust you have given us.</p>
                         <div>
-                            <a href="#/contact" class="btn-contact btn btn-warning btn-lg px-4 me-md-2 shadow">Get Started</a>
+                            <a href="#/contact" class="btn btn-warning btn-lg px-4 me-md-2 shadow">Get Started</a>
                         </div>
                     </div>
                 </div>
@@ -63,17 +63,6 @@ const About = {
             </div>
         </section>
         `;
-    },
-
-    async afterRender() {
-        document.querySelector(".btn-contact").addEventListener("click", () => {
-            let currentActiveNavLink = document.querySelector(".active");
-            currentActiveNavLink.className = currentActiveNavLink.className.replace(
-                " active",
-                ""
-            );
-            document.querySelectorAll(".nav-link")[4].className += " active";
-        });
     },
 };
 
