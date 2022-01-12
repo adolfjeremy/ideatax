@@ -401,13 +401,13 @@ footer a:hover {
     color: #ffc107;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
     .office-information {
         border-bottom: 2px solid #ffc107;
     }
 }
 
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 993px) {
     .office-information {
         border-right: 2px solid #ffc107;
     }
