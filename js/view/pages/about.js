@@ -35,7 +35,7 @@ const About = {
         <section id="coreValue" class="p-60">
             <div class="container">
                 <div class="row">
-                    <div class="col-12 text-center p-5">
+                    <div class="col-12 text-center">
                         <h2>Our Core Value</h2>
                         <p>We always aspire to provide the best service that is always focused on the best interests of the client. We also always prioritize the development of our talents so that they can continue to be relevant in existing changes to improve
                             services to clients.</p>
